@@ -8,7 +8,7 @@ After completing this exercise, you should be able to discuss or answer the foll
     The assignment operator, does not mean "equal to".
 
 - What operator will return the data type of a variable value?
-    The assignment operator.
+    The typeof operator.
 
 - Which keyword is used to declare a variable in JavaScript?
     Keyword var, let, and const.
@@ -17,7 +17,7 @@ After completing this exercise, you should be able to discuss or answer the foll
     $, _, and any letter from the alphabet.
 
 - What are quotation marks used for in JavaScript?
-    To contain a text value.
+    To define strings.
 
 - What is the purpose of strings in JavaScript?
     To store and manipulate text.
@@ -26,10 +26,10 @@ After completing this exercise, you should be able to discuss or answer the foll
     To find out if an expression/var is true.
 
 - What is the purpose of numbers in JavaScript?
-    For assigning a value to a variable and for functions?
+    To represent numerical values.
 
 - What does `null` mean in JavaScript?
-    Intentional absence of any object value.
+    Intentional absence of any object value. Lack of number.
 ## Notes
 
 All student notes should be written here.
