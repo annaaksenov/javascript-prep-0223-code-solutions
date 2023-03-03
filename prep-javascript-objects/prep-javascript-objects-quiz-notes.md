@@ -5,7 +5,7 @@
 After completing this exercise, you should be able to discuss or answer the following questions:
 
 - What data types can object properties hold?
-  Name and values.
+  Name, values, strings, arrays, numeric, etc.
 
 - Describe the syntax (structure) of object-literals in JavaScript.
   We start by declaring a object and in its curly braces we have names and values, also called properites.
