@@ -31,3 +31,36 @@ function forLoop1() {
 }
 forLoop1();
 console.log(forLoop1());
+
+function forLoop2() {
+  for (let i = 100; i > 0; i--) {
+    console.log('Time till explosion: ' + i);
+  }
+}
+forLoop2();
+
+function forInLoop1(object) {
+  const array4 = [];
+  for (const x in object) {
+    array4.push(x);
+  }
+  return array4;
+}
+const object = {
+  name: 'Ada LoveLace',
+  age: 'classic',
+  hobby: 'computation',
+  invention: 'analytical engine'
+};
+forInLoop1(object);
+console.log(forInLoop1(object));
+
+function forInLoop2(object) {
+  const array5 = [];
+  for (const y in object) {
+    array5.push(y);
+  }
+  return array5;
+}
+forInLoop2(object);
+console.log(forInLoop2(object));
