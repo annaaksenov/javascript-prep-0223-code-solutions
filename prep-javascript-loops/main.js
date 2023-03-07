@@ -58,7 +58,7 @@ console.log(forInLoop1(object));
 function forInLoop2(object) {
   const array5 = [];
   for (const y in object) {
-    array5.push(y);
+    array5.push(object[y]);
   }
   return array5;
 }
