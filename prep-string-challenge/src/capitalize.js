@@ -1,6 +1,6 @@
 /* exported capitalize */
 function capitalize(word) {
-  word.toLowerCase();
   const upper = word[0].toUpperCase();
-  return upper;
+  const lower = word.slice(1).toLowerCase();
+  return upper + lower;
 }
